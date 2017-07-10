@@ -2,6 +2,8 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
+  annotations:
+    flux.weave.works/automated: "true"
   name: cowsay-server
 spec:
   replicas: 1
@@ -12,6 +14,6 @@ spec:
     spec:
       containers:
       - name: cowsay-server
-        image: gcr.io/k8s-demos-142718/github-gke-deploy-demo-cowsay-server:0187fe6f17ac6c1dc098f9a0fedd97727e525c27
+        image: gcr.io/k8s-demos-142718/github-gke-deploy-demo-cowsay-server:133cd171f17c5c2a45fe04ec05852391b3a07c55
         ports:
         - containerPort: 80
