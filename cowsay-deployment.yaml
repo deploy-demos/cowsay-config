@@ -2,7 +2,7 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: front-end
+  name: cowsay-server
 spec:
   replicas: 1
   template:
