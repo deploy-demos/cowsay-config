@@ -1,0 +1,1 @@
+{"jobID":"080e5f09-f9c8-3cd5-f095-d9c332fcb525","spec":{"type":"policy","cause":{"Message":"","User":"luke@weave.works"},"spec":{"default/cowsay-server":{"add":null,"remove":{"automated":"true"}}}},"result":null}
