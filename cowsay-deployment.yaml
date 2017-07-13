@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: cowsay-server
-        image: gcr.io/k8s-demos-142718/github-gke-deploy-demo-cowsay-server:4dcc8333353b6eade683b11764765fa41657f394
+        image: gcr.io/k8s-demos-142718/github-gke-deploy-demo-cowsay-server:7e86e0f019cc6d2d8ebc7b1d885e1ac38d99b215
         ports:
         - containerPort: 80
