@@ -1,0 +1,1 @@
+{"jobID":"d57f2cd2-a355-c7c3-6f26-5c5d20031338","spec":{"type":"policy","cause":{"Message":"","User":"test@test"},"spec":{"default/cowsay-server":{"add":{"locked":"true"},"remove":null}}},"result":null}
